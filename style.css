@@ -123,6 +123,12 @@ footer {
       left: 0;
 }
 
+#image{
+      grid-column: 2;
+      position: relative;
+      z-index: 1000;
+      opacity: .4;
+}
 @media (max-width: 992px) {
       #wrapper {
             grid-column: span 12;
